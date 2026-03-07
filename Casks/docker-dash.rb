@@ -12,12 +12,12 @@ cask "docker-dash" do
   on_macos do
     on_intel do
       url "https://github.com/GustavoCaso/docker-dash/releases/download/v#{version}/docker-dash_v#{version}_darwin-amd64"
-      sha256 "42ff0584158284e3f77afc840c8ea23a85fe4fe05378fc147d5c05bfa5b8d21b"
+      sha256 "cdead74c17f4c0ae458b5bc23b7dda845dd326d9d8642ec927b5685545b091b6"
       binary "docker-dash_v0.0.2_darwin-amd64", target: "docker-dash"
     end
     on_arm do
       url "https://github.com/GustavoCaso/docker-dash/releases/download/v#{version}/docker-dash_v#{version}_darwin-arm64"
-      sha256 "a9d5614fe52e1852de40e710a684c1c4df8229c8aa9915b6e683f94fb759e445"
+      sha256 "bcc8ecbff1b0613723f214c9468e6d3ed51db09029121a3791ba750ec452af97"
       binary "docker-dash_v0.0.2_darwin-arm64", target: "docker-dash"
     end
   end
@@ -25,12 +25,12 @@ cask "docker-dash" do
   on_linux do
     on_intel do
       url "https://github.com/GustavoCaso/docker-dash/releases/download/v#{version}/docker-dash_v#{version}_linux-amd64"
-      sha256 "9e928b0a3dbdfc480d8f182fb4300514177c49f0319ff185bdb67d7c2a73bad7"
+      sha256 "68b3c55a88d75d5dd70b0b9ae480c97d61bdd3e6e8a6383477529fec23ae2464"
       binary "docker-dash_v0.0.2_linux-amd64", target: "docker-dash"
     end
     on_arm do
       url "https://github.com/GustavoCaso/docker-dash/releases/download/v#{version}/docker-dash_v#{version}_linux-arm64"
-      sha256 "32d96e8d93657e892c3e196bde6ee9e2acd86b200f5ce8690a1244b1610a7e17"
+      sha256 "d834b665fb64a46dc2d3cd180d1a80dcf358b828b853297b43b733a3472a9e5b"
       binary "docker-dash_v0.0.2_linux-arm64", target: "docker-dash"
     end
   end
