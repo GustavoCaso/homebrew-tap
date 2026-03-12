@@ -3,7 +3,7 @@ cask "docker-dash" do
   name "docker-dash"
   desc "Terminal UI dashboard for managing Docker containers, images, volumes, and networks"
   homepage "https://github.com/GustavoCaso/docker-dash"
-  version "0.0.3"
+  version "0.0.4"
 
   livecheck do
     skip "Auto-generated on release."
@@ -12,26 +12,26 @@ cask "docker-dash" do
   on_macos do
     on_intel do
       url "https://github.com/GustavoCaso/docker-dash/releases/download/v#{version}/docker-dash_v#{version}_darwin-amd64"
-      sha256 "6e774d904e417304aadba40722245adfe37e71ed757b545582f35d69348e240e"
-      binary "docker-dash_v0.0.3_darwin-amd64", target: "docker-dash"
+      sha256 "619e0ca05c5d7bdd2ccea309e1778e0589cf52551d37e83d16667f5885454e6d"
+      binary "docker-dash_v0.0.4_darwin-amd64", target: "docker-dash"
     end
     on_arm do
       url "https://github.com/GustavoCaso/docker-dash/releases/download/v#{version}/docker-dash_v#{version}_darwin-arm64"
-      sha256 "63dd88cf9879861cf8d59909b9c6572267134e32adc4567886f8fca0bfb92b2e"
-      binary "docker-dash_v0.0.3_darwin-arm64", target: "docker-dash"
+      sha256 "885784a2ae52cd3da2965b78c104fa12d42facda5efbcc7f5e6edcdf6c0354eb"
+      binary "docker-dash_v0.0.4_darwin-arm64", target: "docker-dash"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/GustavoCaso/docker-dash/releases/download/v#{version}/docker-dash_v#{version}_linux-amd64"
-      sha256 "733f0cdf6d56f09de1b12b305625f4b4753d2fafe2e71b8b49163e82cb866eba"
-      binary "docker-dash_v0.0.3_linux-amd64", target: "docker-dash"
+      sha256 "405da7c78c8670bf4eea5e267ff5a81004cc1aed68d4a2a9660e25b1e6137aaf"
+      binary "docker-dash_v0.0.4_linux-amd64", target: "docker-dash"
     end
     on_arm do
       url "https://github.com/GustavoCaso/docker-dash/releases/download/v#{version}/docker-dash_v#{version}_linux-arm64"
-      sha256 "6e0b26f46cfe47c38129af4591a6f6c45236a5ee9f70acd2f5274976915b4e71"
-      binary "docker-dash_v0.0.3_linux-arm64", target: "docker-dash"
+      sha256 "5999c99eadd6f1ada65fa276ffe6ae216bb69d2fd8800f84e32189ec28e5e7a7"
+      binary "docker-dash_v0.0.4_linux-arm64", target: "docker-dash"
     end
   end
 
